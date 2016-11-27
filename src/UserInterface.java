@@ -60,8 +60,8 @@ public class UserInterface {
 
                 if (conn.getResponseCode() == 200) {
                     System.out.println("------------------------");
-                    System.out.println("Authentication completed.\nResponse status: " + conn.getResponseCode() + ".");
-                    System.out.println("========================");
+                    System.out.println("Authentication completed.);
+                    System.out.println("------------------------");
                     return true;
                 }
             } catch (IOException e) {
@@ -112,8 +112,6 @@ public class UserInterface {
             }
             case 2: {
                 changeStatus(text.split(";")[0].split(" ")[1]);
-                System.out.println("Status changed.");
-                System.out.println("========================");
                 break;
             }
             case 3: {
