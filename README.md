@@ -1,6 +1,9 @@
 # Console chat
 
 ### Chat commands
+
+![alt tag](https://github.com/Raveleen/chat-client/blob/master/example.png)
+---
    
     $list;                              prints list off all chat users with their online status.
     
